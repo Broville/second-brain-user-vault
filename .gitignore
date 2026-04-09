@@ -1,0 +1,47 @@
+# ============================================================
+#  second-brain — .gitignore
+# ============================================================
+
+# ── Windows ──────────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── macOS (just in case) ──────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Obsidian ─────────────────────────────────────────────
+# The full .obsidian/ folder is excluded — Obsidian regenerates it locally.
+# Re-add specific files (e.g. core-plugins.json) if you want to version them.
+.obsidian/
+
+# ── Editors & IDEs ────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# ── Temp & Logs ───────────────────────────────────────────
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
